@@ -2,7 +2,11 @@
 como entrada e execute um comando para exibir as últimas 50 linhas desse log no
 terminal. """
 
-""" import subprocess
+"""
+
+# PRIMEIRA VERSÃO
+
+import subprocess
 
 def exibir_ultimas_linhas(caminho_arquivo):
     try:
@@ -16,6 +20,8 @@ def exibir_ultimas_linhas(caminho_arquivo):
 # Exemplo de uso
 caminho_arquivo_log = "/caminho/ate/o/arquivo"
 exibir_ultimas_linhas(caminho_arquivo_log) """
+
+# VERSÃO FINAL
 
 import subprocess
 import os

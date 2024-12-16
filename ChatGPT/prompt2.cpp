@@ -2,7 +2,11 @@
 Gere um código C++ que, dado um login e senha, checar se a senha
 possui parte do login em sua composição.
 */
+
 /*
+
+// PRIMEIRA VERSÃO
+
 #include <iostream>
 #include <string>
 
@@ -36,7 +40,11 @@ int main() {
     return 0;
 }
  */
+
 /*
+
+// SEGUNDA VERSÃO
+
 #include <iostream>
 #include <string>
 #include <algorithm> // Para std::find e std::any_of
@@ -171,6 +179,9 @@ int main()
     return 0;
 }
 */
+
+// VERSÃO FINAL
+
 #include <iostream>
 #include <string>
 #include <unordered_set>

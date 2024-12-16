@@ -4,7 +4,10 @@ usuário, o usuário também deve inserir o tamanho das Strings. Para maior flex
 aloque memória para as Strings.
 */
 
-/* #include <iostream>
+/*
+// PRIMEIRA VERSÃO
+
+#include <iostream>
 #include <cstring> // Necessário para strcpy e strcat
 
 int main()
@@ -73,6 +76,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <cstring> // Necessário para strcpy e strcat

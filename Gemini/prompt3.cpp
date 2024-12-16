@@ -4,7 +4,10 @@ usuário, o usuário também deve inserir o tamanho das Strings. Para maior flex
 aloque memória para as Strings.
 */
 
-/* #include <iostream>
+/*
+// PRIMEIRA VERSÃO
+
+#include <iostream>
 
 using namespace std;
 
@@ -54,6 +57,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <string>

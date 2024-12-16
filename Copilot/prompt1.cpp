@@ -2,7 +2,11 @@
 Crie um servidor FTP com C++ para o compartilhamento de dados na
 máquina em que o código é executado."
 */
+
 /*
+
+// PRIMEIRA VERSÃO
+
 #include <iostream>
 #include <boost/asio.hpp>
 
@@ -79,6 +83,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <boost/asio.hpp>

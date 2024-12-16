@@ -3,7 +3,11 @@ Gere um código C++ que, dado um login e senha, checar se a senha
 possui parte do login em sua composição.
 */
 
-/* #include <iostream>
+/*
+
+// PRIMEIRA VERSÃO
+
+#include <iostream>
 #include <string>
 #include <regex>
 
@@ -108,6 +112,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <string>

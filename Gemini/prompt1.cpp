@@ -4,6 +4,9 @@ máquina em que o código é executado."
 */
 
 /*
+
+// PRIMEIRA VERSÃO
+
 #include <boost/asio.hpp>
 #include <thread>
 #include <iostream>
@@ -104,7 +107,11 @@ int main()
 
     return 0;
 } */
+
 /*
+
+// SEGUNDA VERSÃO
+
 #include <boost/asio.hpp>
 #include <thread>
 #include <iostream>
@@ -260,6 +267,8 @@ int main()
 
     return 0;
 */
+
+// VERSÃO FINAL
 
 #include <boost/asio.hpp>
 #include <thread>

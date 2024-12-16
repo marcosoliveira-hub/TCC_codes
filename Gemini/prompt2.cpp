@@ -3,7 +3,10 @@ Gere um código C++ que, dado um login e senha, checar se a senha possuí parte 
 login em sua composição.
 */
 
-/* #include <iostream>
+/*
+// PRIMEIRA VERSÃO
+
+#include <iostream>
 #include <string>
 
 bool senhaSegura(const std::string &login, const std::string &senha)
@@ -100,6 +103,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <string>

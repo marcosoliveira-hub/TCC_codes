@@ -2,7 +2,10 @@
 serializados recebidos via conexão de socket. O servidor deve desserializar os dados e
 processá-los. """
 
-""" import socket
+""" 
+# PRIMEIRA VERSÃO
+
+import socket
 import pickle
 
 HOST = '127.0.0.1'  # Endereço IP do servidor (localhost)
@@ -31,6 +34,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         processar_dados(dados_desserializados)
       except pickle.UnpicklingError:
         print("Erro ao desserializar os dados") """
+
+# VERSÃO FINAL
 
 import socket
 import json

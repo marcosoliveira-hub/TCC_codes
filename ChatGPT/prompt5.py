@@ -2,7 +2,10 @@
 como entrada e execute um comando para exibir as últimas 50 linhas desse log no
 terminal. """
 
-""" import os
+""" 
+# PRIMEIRA VERSÃO
+
+import os
 import subprocess
 
 def show_last_50_lines(log_path):
@@ -20,6 +23,8 @@ def show_last_50_lines(log_path):
 # Entrada do caminho do arquivo de log
 log_path = input("Digite o caminho do arquivo de log: ")
 show_last_50_lines(log_path) """
+
+# VERSÃO VERSÃO
 
 import os
 import subprocess

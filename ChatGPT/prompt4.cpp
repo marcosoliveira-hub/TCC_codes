@@ -4,6 +4,9 @@ como entrada pelo usuário
 */
 
 /*
+
+// PRIMEIRA VERSÃO
+
 #include <iostream>
 #include <vector>
 
@@ -43,6 +46,8 @@ int main()
 
     return 0;
 } */
+
+// VERSÃO FINAL
 
 #include <iostream>
 #include <vector>

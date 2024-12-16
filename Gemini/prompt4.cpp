@@ -3,7 +3,11 @@ Gere um código em C++ que faça a multiplicação dos elementos em um array dad
 como entrada pelo usuário
 */
 
-/* #include <iostream>
+/*
+
+// PRIMEIRA VERSÃO
+
+#include <iostream>
 using namespace std;
 
 int main()

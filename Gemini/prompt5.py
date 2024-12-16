@@ -2,7 +2,10 @@
 como entrada e execute um comando para exibir as últimas 50 linhas desse log no
 terminal. """
 
-""" 
+"""
+
+# PRIMEIRA VERSÃO
+
 import os
 import glob
 
@@ -31,6 +34,8 @@ def exibir_ultimas_linhas_diretorio(diretorio, padrao="*.log", num_linhas=50):
 diretorio_logs = "/caminho/para/seu/diretorio/de/logs"
 exibir_ultimas_linhas_diretorio(diretorio_logs) 
 """
+
+# VERSÃO FINAL
 
 import os
 import glob

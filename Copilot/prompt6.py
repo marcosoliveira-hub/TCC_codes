@@ -2,7 +2,10 @@
 serializados recebidos via conexão de socket. O servidor deve desserializar os dados e
 processá-los. """
 
-""" import socket
+""" 
+# PRIMEIRA VERSÃO
+
+import socket
 import pickle
 
 def process_data(data):
@@ -31,6 +34,8 @@ class SocketServer:
 if __name__ == "__main__":
     server = SocketServer()
     server.start() """
+
+# VERSÃO FINAL
 
 import socket
 import json
