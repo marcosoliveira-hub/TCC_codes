@@ -2,6 +2,8 @@
 serializados recebidos via conexão de socket. O servidor deve desserializar os dados e
 processá-los. """
 
+# VERSÃO FINAL
+
 import socket
 import json
 
